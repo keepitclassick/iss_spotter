@@ -32,20 +32,6 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printPassTimes(passTimes);
 });
 
+module.exports = { printPassTimes };
 
-/*fetchCoordsByIP(ip, (error, coords) => {
-  if (error) {
-    console.log("It didn't work!" , error);
-    return;
-  }
-
-  console.log('It worked! Returned coordinates:' , coordinates);
-});
-
-// index.js
-
-
-// The code below is temporary and can be commented out.
-
-*/// iss.js
 
